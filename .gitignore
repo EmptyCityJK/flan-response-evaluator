@@ -1,0 +1,25 @@
+# 忽略Python缓存
+__pycache__/
+*.pyc
+
+# 忽略虚拟环境
+venv/
+env/
+
+# 忽略日志文件
+*.log
+
+# 忽略文本文件
+*.txt
+
+# 忽略模型或大文件
+checkpoints/
+*.pt
+*.ckpt
+
+# 忽略IDE相关配置
+.idea/
+.vscode/
+
+# 忽略本地配置文件
+config.yaml
